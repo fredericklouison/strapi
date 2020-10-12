@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import './Acceuil.css';
 
-function App() {
+function Acceuil() {
   
   return (
-    <div className="App">
+    <div className="Acceuil">
       
       <div id='text'>
           <h1>Fréderick<span> LOUISON</span></h1>
@@ -37,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default Acceuil;
