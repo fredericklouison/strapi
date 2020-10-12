@@ -5,15 +5,7 @@ function App() {
   
   return (
     <div className="App">
-      <div id="circle_One">
-    
-      </div>
-      <div id="circle_Two">
-    
-      </div>
-      <div id="circle_Three">
-
-      </div>
+      
       <div id='text'>
           <h1>Fréderick<span> LOUISON</span></h1>
           <h2><span>Développeur </span>Web</h2>
@@ -24,6 +16,23 @@ function App() {
           <i className="fas fa-chevron-right"></i>
         </div>
       </div>
+      <ul id='cicleArea'>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
   );
 }
