@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import Acceuil from './Acceuil';
+import App from './app';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Acceuil />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,8 +1,12 @@
-import React from 'react';
-import './Acceuil.css';
+import React,{} from 'react';
+import { useHistory } from "react-router-dom";
+import './Acceuil.css'; 
 
 function Acceuil() {
-  
+  let history = useHistory();
+  function handleClick() {
+    history.push("/about/");
+  }
   return (
     <div className="Acceuil">
       
@@ -10,7 +14,7 @@ function Acceuil() {
           <h1>Fréderick<span> LOUISON</span></h1>
           <h2><span>Développeur </span>Web</h2>
           <h3>Bienvenue sur mon Portfolio</h3>
-          <div id='enterAnim'>
+          <div id='enterAnim' onClick={handleClick}>
           <i className="fas fa-chevron-right"></i>
           <i className="fas fa-chevron-right"></i>
           <i className="fas fa-chevron-right"></i>
