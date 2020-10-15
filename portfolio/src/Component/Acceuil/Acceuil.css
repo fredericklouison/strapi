@@ -1,7 +1,6 @@
 *{
   margin:0px;
   padding:0px;
-  
 }
 .Acceuil{
   text-align: center;
@@ -73,15 +72,14 @@ i{
 }
 #cicleArea{
  bottom: 50px;
-  left: 0;
   overflow: hidden;
   position: absolute;
   height: 100vh;
   width: 100vw;
-  z-index: 0;
+  z-index: inherit -1;
 }
 #cicleArea li{
-  position: absolute;
+  position: fixed;
   display: block;
   list-style: none;
   width: 25px;
@@ -100,7 +98,6 @@ i{
 }
 #cicleArea li:nth-child(2){
   left :15%;
-  animation-delay: 1s;
 }
 #cicleArea li:nth-child(3){
   left :27%;
