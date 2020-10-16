@@ -30,7 +30,7 @@ const Projet = () => {
                             <Button variant="primary">Go somewhere</Button>
                         </Card.Body>
                         <Card.Footer>
-                            <small className="text-muted">{projet[key].created_at}</small>
+                            <small className="text-muted">{projet[key].created_at.split('T')[0]}</small>
                         </Card.Footer>
          </Card>
     )
