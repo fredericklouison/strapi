@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projets",
+  "info": {
+    "name": "projet",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "texte": {
+      "type": "text"
+    }
+  }
+}
