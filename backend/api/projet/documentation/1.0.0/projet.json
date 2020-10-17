@@ -598,6 +598,9 @@
           "texte": {
             "type": "string"
           },
+          "GithubLink": {
+            "type": "string"
+          },
           "published_at": {
             "type": "datetime"
           }
@@ -609,6 +612,9 @@
             "type": "string"
           },
           "texte": {
+            "type": "string"
+          },
+          "GithubLink": {
             "type": "string"
           },
           "published_at": {

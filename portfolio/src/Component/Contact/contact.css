@@ -1,0 +1,11 @@
+#Contact{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    z-index:  inherit 2 !important;
+}
+.form{
+    width: 40%;
+    margin: 200px auto;
+
+}

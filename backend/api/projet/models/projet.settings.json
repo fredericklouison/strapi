@@ -27,6 +27,9 @@
     },
     "texte": {
       "type": "text"
+    },
+    "GithubLink": {
+      "type": "string"
     }
   }
 }
