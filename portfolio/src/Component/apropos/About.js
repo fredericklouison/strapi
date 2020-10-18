@@ -16,10 +16,10 @@ const About = () => {
                     En effet ce métier m'attire depuis de nombreuses années mais je n'ai jamais osé sauter le pas .  
                     </p>
                     <p>
-                    j'ai commencer a me former seul au début car j'apprend très rapidement , néanmoins j'ai souhaiter apporter plus de crédit à ce que j'ai appris j'ai donc décidé de m'inscrire sur openClassrooms à la formation de développeur web
+                    j'ai commencé à me former seul  car j'apprends très rapidement , néanmoins j'ai souhaité apporter plus de crédit à ce que j'ai appris j'ai donc décidé de m'inscrire sur openClassrooms à la formation de développeur web
                     </p>
                     <p>
-                    Cette formation étant désormais terminer je recherche des missions en freelances
+                    Cette formation étant désormais terminée je recherche des missions en freelances
                         ou un contrat en agence .
                     </p>
                 </div>
@@ -42,7 +42,7 @@ const About = () => {
                 <img src={img2}/>
             </div>
             <div id='upload'>
-                <a id='CVlink'download="CV_Frederick_louison.pdf" href={cv}>
+                <a id='CVlink'download="CV_Frédérick_Louison.pdf" href={cv}>
                     <div id='CV'>
                         <span>
                             Télécharger mon CV
