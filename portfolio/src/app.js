@@ -3,6 +3,7 @@ import {BrowserRouter,Switch,Route} from 'react-router-dom'
 import Acceuil from './Component/Acceuil/Acceuil'
 import About from './Component/apropos/About'
 import Contact from './Component/Contact/Contact'
+import Notfound from './Component/Notfound'
 import Projet from './Component/Projet/Projet'
 
 
@@ -14,6 +15,8 @@ const App = () => {
             <Route exact path='/about/' component={About} />
             <Route exact path='/Projets/' component={Projet} />
             <Route exact path='/Contact/' component={Contact} />
+            <Route   component={Notfound} />
+            
         </Switch>
         </BrowserRouter>
     )
