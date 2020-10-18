@@ -601,6 +601,9 @@
           "GithubLink": {
             "type": "string"
           },
+          "Link": {
+            "type": "string"
+          },
           "published_at": {
             "type": "datetime"
           }
@@ -615,6 +618,9 @@
             "type": "string"
           },
           "GithubLink": {
+            "type": "string"
+          },
+          "Link": {
             "type": "string"
           },
           "published_at": {

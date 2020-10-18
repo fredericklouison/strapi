@@ -27,7 +27,9 @@ const Projet = () => {
                             <Card.Text>
                                 {projet[key].texte}
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <a target='_blank'href={projet[key].GithubLink}><Button variant="primary" >Voir sur Github</Button></a><br/><br/>
+                            {projet[key].Link?<a target='_blank'href={projet[key].Link}><Button variant="primary" >Voir en live</Button></a>:null}
+                            
                         </Card.Body>
                         <Card.Footer>
                             <small className="text-muted">{projet[key].created_at.split('T')[0]}</small>

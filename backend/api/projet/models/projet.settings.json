@@ -30,6 +30,9 @@
     },
     "GithubLink": {
       "type": "string"
+    },
+    "Link": {
+      "type": "string"
     }
   }
 }

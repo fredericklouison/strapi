@@ -18,7 +18,7 @@ const Contact = () => {
             tel: tel,
             message: message,
             },'user_GAd0FZCju9JtfHUX9UhfN');
-
+            window.location.reload()
     }
     return (
         <div id='Contact'>
