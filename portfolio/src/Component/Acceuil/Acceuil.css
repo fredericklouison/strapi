@@ -53,7 +53,7 @@ div#enterAnim:hover{
 #enterAnim i:nth-child(3){
   animation-delay: 0.6s;
 }
-i{
+#enterAnim i{
   color: gray;
   font-size: 85px;
   animation-name:soon;
@@ -158,6 +158,41 @@ i{
   }
   100%{
     transform: translateY(-25px);
+    
+  }
+}
+@media screen and (max-width:700px){
+  #text{
+    float: none;
+    margin-top: 100px;
+    width: 100%;
+   }
+   h3{
+     color: white;
+     font-size: 20px;
+   }
+   h2,h3{
+     margin-left: 0px;
+   }
+   #enterAnim{
+    height: 50px;
+    width: 100px;
+    border: 4px solid white;
+    border-radius: 75px;
+    margin-top: 90px;
+    margin-left: 0px;
+    position: relative;
+    left: 60%;
+    z-index: 2 !important;
+  }
+  #enterAnim i{
+    color: gray;
+    font-size: 35px;
+    animation-name:soon;
+    animation-duration:0.9s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+    
     
   }
 }
